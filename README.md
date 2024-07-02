@@ -1,10 +1,17 @@
 ## Take a look: [📺Live Now](https://pratikkarbhal.github.io/Web-IPTV/) 
-Only for educational purposes...
+Only for educational purposes, Make your own...
 
-Make your own......
-For Android/Smart TVs: Go to github playlist, copy raw-file url(i.e. just add ' ?raw=true ' in the end of browser url) and paste it in IPTV Player.
+For Android/Smart TVs:
+1. Go to github playlist
+2. Copy **raw-file url(i.e. just add ' ?raw=true ' in the end of browser url)**
+3. Paste it in IPTV Player.
 
-For your own repo: You can fork the repository, edit your .m3u playlist (in github then edit raw=file url in script.js) and after enabling github-pages. you are good to go.
+For your own Github Repo: 
+1. Fork the repository
+2. Edit your .m3u playlist
+3. Change raw-file url i.e playlistURL in script.js (line no.4 in script.js)
+4. Enable github-pages
+5. Done. Use github-pages URL to use.
 
 
 This is IPTV Concept made by me.
@@ -14,11 +21,11 @@ Some channels may not work due to CORS policy.
 ## Screenshots:
 1. Desktop
 
-![Desktop](https://github.com/pratikkarbhal/CustomIPTVm3u8/blob/main/desktop.gif)
+![Desktop](https://github.com/pratikkarbhal/Web-IPTV/blob/main/desktop.gif)
 
 2. Mobile
 
-![Mobile](https://github.com/pratikkarbhal/CustomIPTVm3u8/blob/main/mobile.gif)
+![Mobile](https://github.com/pratikkarbhal/Web-IPTV/blob/main/mobile.gif)
 
 
 #
