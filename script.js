@@ -1,14 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const proxyURL = 'https://api.allorigins.win/get?url=';
+    const proxyURL = 'https://cors-anywhere.herokuapp.com/';
     const playlistURL = 'https://github.com/Alpha5472/Web-IPTV2/blob/main/Sample.m3u?raw=true';
     const proxyPlaylistURL = proxyURL + encodeURIComponent(playlistURL);
 
     fetch(proxyPlaylistURL)
-        .then(response => response.json())
+        .then(response => response.text())
         .then(data => {
-            const playlistContent = data.contents;
             const playlist = document.getElementById('playlist');
-            const lines = playlistContent.split('\n');
+            const lines = data.split('\n');
             let firstStreamUrl = null;
 
             lines.forEach((line, index) => {
